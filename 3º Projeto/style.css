@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1,
+header nav li,
+section h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(0, 89, 255, 0.9);
+    color: white;
+    padding: 16px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section .container {
+    display: flex;
+    padding: 24px;
+}
+
+.sobre-loja {
+    margin-left: 24px;
+}
+
+.sobre-loja h2 {
+    border-bottom: 3px solid rgba(5, 53, 200, 0.449);
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    color: rgba(5, 54, 200, 0.748);
+}
+
+section p {
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
