@@ -61,3 +61,70 @@ section p {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
 }
+
+.produtos {
+    padding: 24px;
+}
+
+.produtos h2 {
+    display: block;
+    border-bottom: 3px solid rgba(5, 53, 200, 0.449);
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    color: rgba(5, 54, 200, 0.748);
+}
+
+.anuncios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.item {
+    border: 1px solid rgba(0, 89, 255, 0.3);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+    padding: 16px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.item img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto 16px;
+    border-radius: 8px;
+}
+
+.item h3 {
+    font-size: 1.2em;
+    color: rgba(5, 54, 200, 0.748);
+    margin-bottom: 8px;
+}
+
+.item p {
+    font-size: 0.9em;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.item button {
+    padding: 8px 16px;
+    border: none;
+    background-color: rgba(0, 89, 255, 0.9);
+    color: white;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.item button:hover {
+    background-color: rgba(0, 70, 200, 0.9);
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
