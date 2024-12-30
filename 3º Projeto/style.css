@@ -45,6 +45,11 @@ section .container {
     padding: 24px;
 }
 
+.fachada {
+    height: 320px;
+    width: 320px;
+}
+
 .sobre-loja {
     margin-left: 24px;
 }
@@ -92,7 +97,7 @@ section p {
 
 .item img {
     max-width: 80%;
-    height: auto;
+    height: 120px;
     margin: 0 auto 16px;
     border-radius: 8px;
 }
@@ -107,6 +112,11 @@ section p {
     font-size: 0.9em;
     color: #333;
     margin-bottom: 16px;
+    text-decoration: none;
+}
+
+.item a {
+    text-decoration: none;
 }
 
 .item button {
